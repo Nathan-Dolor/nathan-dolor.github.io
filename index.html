@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathan Dolor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <script src="https://kit.fontawesome.com/cc0fd0408a.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/devnate.png" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Nathan Dolor</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">FRONT-END DEV</p>
+        <img src="img/nathan-closeup.jpg" alt="a picture of Nathan Dolor" class="intro__img">
+    </section>
+
+    <!-- About me -->
+    <section id="about-section">
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">About Me</h2>
+            <p class="section__subtitle section__subtitle--about">Developer based out of Saint Lucia</p>
+            
+            <div class="about-me__body">
+                <p>My name is Nathan Dolor and my passion lies in web development, where I'm eager to merge creativity 
+                    and logic to craft compelling digital experiences. My main focus in front-end development but I also 
+                    have experience with back-end.</p>
+                <p>I approach coding with a teachable spirit, always ready to learn from challenges and adapt. Beyond coding, I
+                    maintain a healthy balance by enjoying regular exercise.</p>
+            </div>
+        </section>
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">a selection of my range of work</p>
+
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+            <div class="portfolio__item" project-open-modal-1>
+                <p class="portfolio__text">Appointment Booker</p>
+                <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
+            </div>
+
+            <dialog class="modal" project-modal-1>
+                <h3>Appointment Booker</h3>
+                <button class="btn-x" project-close-modal-1>x</button>
+                <img src="img/project-img-1.webp" alt="Screenshot of Project">
+                <div class="body">
+                    <strong>
+                        <p>Description:</p>
+                    </strong>
+                    <p>This appointment booking web application is a software platform that allows users to schedule
+                        appointments for various services or activities. This application may be used by both a member who is
+                        booking an appointment, and a staff who can view their appointments.</p>
+                    <strong>
+                        <p>Tools Used:</p>
+                    </strong>
+                    <ul class="tools-list">
+                        <li>PHP</li>
+                        <li>CSS</li>
+                        <li>SQL</li>
+                        <li>Laravel</li>
+                        <li>Bootstrap</li>
+                        <li>XAMPP</li>
+                    </ul>
+                </div>
+            </dialog>
+                
+            <!-- Portfolio item 02 -->
+            <div class="portfolio__item" project-open-modal-2>
+                <p class="portfolio__text">Student Companion</p>
+                <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
+            </div>
+
+            <dialog class="modal" project-modal-2>
+                <h3>Student Companion</h3>
+                <button class="btn-x" project-close-modal-2>x</button>
+                <img src="img/project-img-2.webp" alt="Screenshot of Project">
+                <div class="body">
+                    <strong>
+                        <p>Description:</p>
+                    </strong>
+                    <p>The Student Companion app is a Desktop application that provides students with the ability to manage and
+                    track their essential information such as, exams, courses, notes, and assignments. The idea is to help
+                    students organize and track these components to make management easier.</p>
+                    <strong>
+                        <p>Tools Used:</p>
+                    </strong>
+                    <ul class="tools-list">
+                        <li>C#</li>
+                        <li>SQL</li>
+                        <li>Visual Studio</li>
+                    </ul>
+                </div>
+            </dialog>
+            
+            <!-- Portfolio item 03 -->
+            <div class="portfolio__item" project-open-modal-3>
+                <p class="portfolio__text">Meal Finder</p>
+                <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
+            </div>
+
+            <dialog class="modal" project-modal-3>
+            <h3 class="f">Meal Finder</h3>
+            <button class="btn-x" project-close-modal-3>x</button>
+            <img src="img/project-img-3.webp" alt="Screenshot of Project">
+            <div class="body">
+                <strong>
+                    <p>Description:</p>
+                </strong>
+                <p>This recipe finder is a web application which allows users to search for recipes by either the meal name or by 
+                    ingredient, which then finds all recipes containing that ingredient. This feature will save time and make it easier 
+                    for users to find the recipes they are looking for.</p>
+                <strong>
+                    <p>Tools Used:</p>
+                </strong>
+                <ul class="tools-list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>API</li>
+                    <li>Node.JS</li>
+                </ul>
+            </div>
+        </div>
+
+        
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="mailto:natebdolor@gmail.com" target="_blank" class="footer__link">natebdolor@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" target="_blank" href="https://www.instagram.com/nateiboyy/?hl=en">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" target="_blank" href="https://lc.linkedin.com/in/nathan-dolor-2420aa182">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" target="_blank" href="https://github.com/Nathan-Dolor">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/modal.js"></script>
+</body>
+</html>
